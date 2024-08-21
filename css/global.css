@@ -9,6 +9,7 @@
     padding: 1.5rem;
 }
 
+
 .navbar {
     background-color: #2f4858;
     /* Azul */
@@ -21,7 +22,7 @@
 .navbar-item:hover {
     background-color: #FF4500;
     /* Laranja */
-    color: white !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .navbar-end .navbar-item {
@@ -35,20 +36,25 @@
     width: 200px;
 }
 
-.search-bar .navbar {
+.navbar {
     background-color: #2f4858;
     /* Cor de fundo azul escuro */
     padding: 1rem 0;
 }
 
 .navbar-item {
-    color: white !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: #2f4858;
+}
+
+.navbar-link, a.navbar-item {
+    background-color: #2f4858;
 }
 
 .navbar-item:hover {
     background-color: #f26419;
     /* Laranja para o hover */
-    color: white !important;
+    color: black !important;
 }
 
 .navbar-end .navbar-item {
@@ -78,16 +84,19 @@
     margin-right: 0.5rem;
 }
 
+
 /*FOOTER */
 
 
 .footer img {
-    width: 32px; /* Define a largura do ícone no rodapé */
-    height: 32px; /* Define a altura do ícone no rodapé */
+    width: 32px;
+    /* Define a largura do ícone no rodapé */
+    height: 32px;
+    /* Define a altura do ícone no rodapé */
 }
 
-.teste{
-    display:flex;
+.teste {
+    display: flex;
     justify-content: center;
     margin: auto;
 }
